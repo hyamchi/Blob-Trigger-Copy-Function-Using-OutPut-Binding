@@ -1,0 +1,28 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "samples-workitems/{name}",
+      "connection": "source_conn_string"
+    },
+    {
+      "name": "inputBlob",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "samples-workitems/{name}",
+      "connection": "source_conn_string",
+      "direction": "in"
+    },
+    {
+      "name": "outputBlob",
+      "direction": "out",
+      "type": "blob",
+      "dataType": "binary",
+      "path": "outcontainer/{name}-copy",
+      "connection": "dest_conn_string"
+    }
+  ]
+}
