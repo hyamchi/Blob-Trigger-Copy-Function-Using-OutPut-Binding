@@ -1,5 +1,6 @@
 # Blob-Triggered-Azure-Function
-This function gets triggered when a new blob is created in the source container and makes a copy of the new blob in the destination container with the help of output binding. 
+### Copy a blob with input and output bindings
+This function gets triggered when a new blob is created in the source container and makes a copy of the new blob in the destination container with the help of **output binding**. 
 
 # Local Testing:
 You should have a `local.settings.json` file in the root dir of the project and specify the values for connection strings and AzurewebJobsStorage:
