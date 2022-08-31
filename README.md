@@ -10,3 +10,9 @@ To get the connection string for an Azure Storage Account go to the storage acco
 # Testing The Function in Azure:
 To test the function in Azure, you need to store the connection values in the Function App's `Application Settings`:
 ![Untitled3](https://user-images.githubusercontent.com/84933778/187781361-e9f60fc0-0c82-4eb9-9df1-43253145da96.png)
+
+For more info refer to the following links:
+
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-output?tabs=in-process%2Cextensionv5&pivots=programming-language-python
+
+https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob-input?tabs=in-process%2Cextensionv5&pivots=programming-language-python
