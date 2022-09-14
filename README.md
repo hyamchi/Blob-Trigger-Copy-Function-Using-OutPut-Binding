@@ -2,6 +2,9 @@
 ### Copy a blob with input and output bindings
 This function gets triggered when a new blob is created in the source container and makes a copy of the new blob in the destination container with the help of **output binding**. 
 
+My blog about this project:
+
+https://medium.com/@yamchi/how-to-copy-a-blob-from-an-azure-storage-account-to-another-one-with-a-blob-triggered-function-efcae4b6edef
 # Local Testing:
 You should have a `local.settings.json` file in the root dir of the project and specify the values for connection strings and AzurewebJobsStorage:
 ![Untitled](https://user-images.githubusercontent.com/84933778/187780332-92acc1db-095f-406e-9e74-99cf83dd60f1.png)
